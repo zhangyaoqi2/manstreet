@@ -23,84 +23,84 @@ use yii\helpers\Url;
 <div class="leftnav">
     <div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
     <h2><span class="icon-pencil-square-o"></span>商品模块</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>个人中心</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>商品购买</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>会员管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>订单管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>售后管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>文章管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>相册管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>形象设计管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>活动管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-pencil-square-o"></span>评论管理</h2>
-    <ul style="display:block">
+    <ul style="display:none">
 
         <li><a href="<?php echo Url::toRoute(['bowen/index']);?>"><span class="icon-caret-right"></span>添加商品</a></li>
         <li><a href="<?php echo Url::toRoute(['classification/add']);?>"><span class="icon-caret-right"></span>分类管理</a></li>
         <li><a href="<?php echo Url::toRoute(['recycle/index']);?>"><span class="icon-caret-right"></span>回收站</a></li>
     </ul>
     <h2><span class="icon-user"></span>商品权限模块</h2>
-    <ul style="display:block">
+    <ul style="display:none">
         <li><a href="<?php echo URL::toRoute(['rbac/list'])?>"><span class="icon-caret-right"></span>权限</a></li>
         <li><a href="<?php echo URL::toRoute(['rbac/role'])?>"><span class="icon-caret-right"></span>添加角色</a></li>
         <li><a href="<?php echo URL::toRoute(['rbac/rb'])?>"><span class="icon-caret-right"></span>角色分配</a></li>

@@ -85,20 +85,22 @@ class RbacController extends CommonController
     public function actionFenpei()
     {
         $sql='select name from  auth_item where type=1';
+
         $role=\Yii::$app->db->createCommand($sql)->queryAll();
+
         foreach($role as $v)
         {
             $rolel[$v['name']]=$v['name'];
         }
 
 
-        $sql1='select id,username from  user';
+        $sql1='select admin_id,username from  man_admin';
         $power=\Yii::$app->db->createCommand($sql1)->queryAll();
-
         foreach($power as $vv)
         {
-            $powerl[$vv['id']]=$vv['username'];
+            $powerl[$vv['admin_id']]=$vv['username'];
         }
+
         return $this->render('feipei',['role'=>$rolel,'power'=>$powerl]);
     }
     public function actionAssign()
